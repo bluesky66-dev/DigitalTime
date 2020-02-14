@@ -283,7 +283,7 @@ h4{
 
 .masthead {
     text-align: center;
-    background-image: url(../img/header.png);
+    background-image: url(../img/header.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -311,7 +311,7 @@ h4{
 
     .masthead {
         text-align: center;
-        background-image: url(../img/header.png);
+        background-image: url(../img/header.jpg);
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-position: center center;
@@ -340,7 +340,7 @@ h4{
 @media (min-width: 768px) and (max-width: 1199px) {
     .masthead {
         text-align: center;
-        background-image: url(../img/header768.png);
+        background-image: url(../img/header768.jpg);
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-position: center center;
@@ -383,7 +383,7 @@ h4{
 @media (min-width: 375px) and (max-width: 767px){
     .masthead {
         text-align: center;
-        background-image: url(../img/header375.png);
+        background-image: url(../img/header375.jpg);
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-position: center center;
@@ -512,7 +512,7 @@ h4{
 }
 @media(min-width: 1200px){
     #services{
-        background-image: url(../img/service.png);
+        background-image: url(../img/service.jpg);
         background-repeat: no-repeat;
 
     }
@@ -527,7 +527,7 @@ h4{
 }
 @media (min-width: 768px) and (max-width: 1199px) {
     #services{
-        background-image: url(../img/service768.png);
+        background-image: url(../img/service768.jpg);
         background-repeat: no-repeat;
     }
     .service-button1{
@@ -564,7 +564,7 @@ h4{
 }
 @media (min-width: 375px) and (max-width: 767px){
     #services{
-        background-image: url(../img/service375.png);
+        background-image: url(../img/service375.jpg);
         background-repeat: no-repeat;
         padding: 91px 18px 100px 18px;
     }

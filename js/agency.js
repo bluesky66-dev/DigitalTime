@@ -39,4 +39,24 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  $("#portfolio .main-nav a").click(function (e) {
+    e.preventDefault();
+    var cat = $(this).attr("data-cat");
+    console.log("cat", cat);
+    $(".portfolio2 .portfolio-item").hide();
+    $("#portfolio .main-nav li").removeClass("active");
+    $(this).parent().addClass("active");
+    if(cat===""){
+      $(".portfolio2 .portfolio-item").show();
+    }
+    else{
+      $(".portfolio2 ." + cat).show();
+    }
+  });
+
 })(jQuery); // End of use strict
+
+function onSelectCat(event, cat) {
+  event.preventDefault();
+  console.log("cat", cat);
+}

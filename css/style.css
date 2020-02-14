@@ -70,6 +70,9 @@ h4{
 .warming{
     background: #FFD012 0% 0% no-repeat padding-box;
 }
+a:hover{
+    color: transparent;
+}
 .color1{
     background: #1C2339 0% 0% no-repeat padding-box;
 }
@@ -455,6 +458,9 @@ h4{
 .square-line{
     padding: 15px 0px ;
  }
+.square-line:hover{
+    color:white;
+}
 .square-line1{
     padding: 15px 0px 15px 21px;
 }
@@ -463,11 +469,18 @@ h4{
     height: 253px;
     padding: 0px;
 }
+.square:hover{
+    background: #0a7fcc;
+}
+.square:hover span{
+    color: #ffffff;
+}
 .bac-white,.bac-white1{
     border: 1px solid #EDEDED;
     background: white;
     z-index: 1;
 }
+
 .service-img{
     margin-top: -50px;
 }
@@ -485,27 +498,34 @@ h4{
      justify-content: center;
      margin-left: 92px;
      margin-bottom: 27px;
+    border: 1px solid #0A7FCC;
  }
 .circle1{
     background-color:#F6AA66;
+    border: 1px solid #F6AA66;
 }
 .circle2{
     background-color: #FD5545;
+    border: 1px solid #FD5545;
 }
 .circle3{
     background-color: #11BF5A;
+    border: 1px solid #11BF5A;
 }
+
 .square-font1{
     text-align: center;
     font: 500 20px/27px Quicksand;
     letter-spacing: 0;
     color: #1B445E;
+    margin: 0 auto;
 }
-.square-font{
+.square-font1:hover{
     text-align: center;
     font: 500 20px/27px Quicksand;
     letter-spacing: 0;
-    color: white;
+    color: #ffffff;
+    margin: 0 auto;
 }
 .service-button2{
     display: none;
@@ -522,6 +542,10 @@ h4{
     .service-left h2{
         max-width: 460px;
         padding-bottom: 15px;
+    }
+    .square:hover{
+        background: #0a7fcc;
+        color: #ffffff;
     }
 
 }
@@ -718,7 +742,7 @@ img::-moz-selection {
 }
 .portfolio1{
     display: flow-root;
-    padding: 0px 15px 0px 15px;
+    padding: 0px 0px 0px 15px;
 }
 .portfolio1-left{
     font: 700 52px/62px Lato;
@@ -742,7 +766,7 @@ img::-moz-selection {
     margin: 0;
     list-style: none;
 }
-.main-nav .active a {
+.main-nav .active.all  a {
     box-sizing: content-box;
     background: #F6AA66;
     text-decoration: none;
@@ -750,15 +774,27 @@ img::-moz-selection {
     letter-spacing: 0;
     color: #FFFFFF;
     padding: 8px 29.5px;
-
+}
+.main-nav .active  a {
+    box-sizing: content-box;
+    background: #F6AA66;
+    text-decoration: none;
+    font: Bold 15px/24px Quicksand;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    padding: 8px 21px 8px 22px;
 }
 .main-nav a {
     font: Bold 15px/24px Quicksand;
     color: #23516F;
     text-align: center;
-    padding-left: 43px;
-    transition: all 1s;
+    padding-left: 22px;
+    padding-right: 21px;
+    /*transition: all 1s;*/
     text-decoration: none;
+}
+.ux-ui{
+    padding-left: 21px;
 }
 .portfolio2{
     padding-top: 59px;

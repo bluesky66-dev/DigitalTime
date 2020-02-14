@@ -24,7 +24,7 @@
 
   <div class="container">
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top container" id="mainNav">
+    <nav class="navbar navbar-expand-lg  fixed-top container" id="mainNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
           <img src="img/logo.png">
         </a>
@@ -34,16 +34,16 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav  ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Home</a>
+              <a class="nav-link js-scroll-trigger" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#future">About</a>
+              <a class="nav-link js-scroll-trigger" href="#services">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" style="text-decoration: underline;">Say Hi</a>
+              <a class="nav-link js-scroll-trigger" href="#footer" style="text-decoration: underline;">Say Hi</a>
             </li>
           </ul>
         </div>
@@ -51,7 +51,7 @@
 
     <div class="container">
       <!-- Header -->
-    <header class="masthead">
+    <header class="masthead" id="home">
         <div class="col-xl-6  col-md-12 intro-text">
           <div class="intro-heading wow animated fadeInUp" data-wow-delay="0.5s">Build a strong digital presence</div>
           <div class=" intro-lead-in lead wow animated fadeInUp" data-wow-delay="0.6s">Discover modern solutions and digital strategies to build your brand and your business</div>
@@ -67,7 +67,7 @@
     <section class="page-section wow animated fadeIn" data-wow-delay="0.2s" id="services">
       <div class="container " >
         <div class="row">
-          <div class="col-xl-6 col-md-12 service-left wow animated fadeInLeft" data-wow-delay="0.5s">
+          <div id="serviceLeft0" class="col-xl-6 col-md-12 service-left wow animated fadeInLeft" data-wow-delay="0.5s">
             <div class="left-background wow animated fadeInLeft">
             <h2 class="wow animated fadeInLeft" data-wow-delay="0.5s">Unique services for your business</h2>
             <div class="service-text1 wow animated fadeInLeft" data-wow-delay="0.7s">
@@ -81,10 +81,67 @@
             </div>
             </div>
           </div>
+          <div id="serviceLeft1" class="col-xl-6 col-md-12 service-left" >
+            <div class="left-background">
+              <h2 class="" >Web Development</h2>
+              <div class="service-text1">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut Lorem ipsum dolor sit amet.
+              </div>
+              <div class="service-text2">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.
+              </div>
+              <div class="service-button1"><a class="btn button-default " >
+                <span>Learn More</span></a>
+              </div>
+            </div>
+          </div>
+          <div id="serviceLeft2" class="col-xl-6 col-md-12 service-left" >
+            <div class="left-background">
+              <h2 class="" >UI UX Design</h2>
+              <div class="service-text1">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut Lorem ipsum dolor sit amet.
+              </div>
+              <div class="service-text2">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.
+              </div>
+              <div class="service-button1"><a class="btn button-default " >
+                <span>Learn More</span></a>
+              </div>
+            </div>
+          </div>
+          <div id="serviceLeft3" class="col-xl-6 col-md-12 service-left" >
+            <div class="left-background">
+              <h2 class="" >Branding Identity</h2>
+              <div class="service-text1">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut Lorem ipsum dolor sit amet.
+              </div>
+              <div class="service-text2">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.
+              </div>
+              <div class="service-button1"><a class="btn button-default " >
+                <span>Learn More</span></a>
+              </div>
+            </div>
+          </div>
+          <div id="serviceLeft4" class="col-xl-6 col-md-12 service-left" >
+            <div class="left-background">
+              <h2 class="" >UI UX Design</h2>
+              <div class="service-text1">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut Lorem ipsum dolor sit amet.
+              </div>
+              <div class="service-text2">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.
+              </div>
+              <div class="service-button1"><a class="btn button-default " >
+                <span>Learn More</span></a>
+              </div>
+            </div>
+          </div>
+
 
             <div class="row col-xl-6 col-md-12 service-right wow animated fadeInRight" data-wow-delay="0.5s">
               <div class="col-xl-6 col-lg-6 col-sm-6 square-line wow animated fadeIn" data-wow-delay="0.6s">
-                <a href="javascript: void (0);"><div class=" square bac-white">
+                <a href="#serviceLeft1" id="serviceLink1"><div class=" square bac-white">
                     <div class="circle-control">
                         <div class="circle">
             <!--              <i class="fas fa-arrows-h"></i>-->
@@ -97,7 +154,7 @@
                 </div></a>
               </div>
               <div class="col-xl-6 col-lg-6 col-sm-6 square-line1 wow animated fadeIn" data-wow-delay="0.7s">
-                <a href="javascript: void (0);"><div class=" square bac-white">
+                <a href="#serviceLeft2" id="serviceLink2"><div class=" square bac-white">
                 <div class="circle-control">
                   <div class="circle circle1">
                     <!--              <i class="fas fa-arrows-h"></i>-->
@@ -111,7 +168,7 @@
               </div></a>
               </div>
               <div class="col-xl-6 col-lg-6 col-sm-6 square-line wow animated fadeIn" data-wow-delay="0.8s">
-                <a href="javascript: void (0);"><div class=" square bac-white">
+                <a href="#serviceLeft3" id="serviceLink3"><div class=" square bac-white">
                 <div class="circle-control">
                   <div class="circle circle2">
                     <!--              <i class="fas fa-arrows-h"></i>-->
@@ -125,7 +182,7 @@
               </div></a>
               </div>
               <div class="col-xl-6 col-lg-6 col-sm-6 square-line1 wow animated fadeIn" data-wow-delay="0.9s">
-                <a href="javascript: void (0);"><div class=" square bac-white">
+                <a href="#serviceLeft4" id="serviceLink4"><div class=" square bac-white">
                 <div class="circle-control">
                   <div class="circle circle3">
                     <!--              <i class="fas fa-arrows-h"></i>-->
@@ -169,7 +226,6 @@
             <!-- Uncomment below if you prefer to use an image logo -->
             <h2>Project</h2>
             <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
-
           </div>
 
           <nav class="main-nav  d-lg-block wow animated fadeInUp" data-wow-delay="0.5s">
@@ -269,10 +325,18 @@
             <div class="footer-left2 wow animated fadeInLeft" data-wow-delay="0.7s">hello@digitaltim.com</div>
           </div>
           <div class="col-xl-3 col-md-3">
-            <div class="footer-right1 wow animated fadeInRight" data-wow-delay="0.5s">Main pages</div>
-            <div class="footer-right2 wow animated fadeInRight" data-wow-delay="0.6s">Home</div>
-            <div class="footer-right2 wow animated fadeInRight" data-wow-delay="0.7s">About</div>
-            <div class="footer-right2 wow animated fadeInRight" data-wow-delay="0.8s">Services</div>
+            <div class="footer-right1 wow animated fadeInRight" data-wow-delay="0.5s">
+              Main pages
+            </div>
+            <div class="footer-right2 wow animated fadeInRight" data-wow-delay="0.6s">
+              <a href="#home">Home</a>
+            </div>
+            <div class="footer-right2 wow animated fadeInRight" data-wow-delay="0.7s">
+              <a href="#future">About</a>
+            </div>
+            <div class="footer-right2 wow animated fadeInRight" data-wow-delay="0.8s">
+              <a href="#portfolio">Services</a>
+            </div>
           </div>
           <div class="col-xl-3 col-md-3">
             <div class="footer-right1 wow animated fadeInRight" data-wow-delay="0.9s">Other pages</div>
@@ -292,14 +356,10 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
     <!-- Contact form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
-
-
     <!-- Custom scripts for this template -->
     <script src="js/wow.min.js"></script>
     <script src="js/agency.js"></script>

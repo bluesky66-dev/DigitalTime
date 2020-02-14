@@ -140,7 +140,6 @@ a:hover{
 <!-- Navigation -->
 
 #mainNav {
-    background-color: #212529;
     font-weight: 500;
     font-size: 15px;
     line-height: 25px;
@@ -149,10 +148,8 @@ a:hover{
     color: #FFFFFF;
     padding: 43px 79px 0px 102px;
 }
-
 #mainNav .navbar-brand {
     color: #fed136;
-
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -176,12 +173,13 @@ a:hover{
 #mainNav .navbar-nav .nav-item {
     font: 500 15px/25px Quicksand;
 }
-
+#mainNav.navbar-shrink{
+    display: none;
+}
 @media(min-width: 1200px){
     #mainNav{
         max-width: 1440px;
         padding: 0;
-
     }
 }
 
@@ -192,21 +190,16 @@ a:hover{
         border: none;
         background-color: transparent
     }
-
     #mainNav .navbar-brand {
         transition: all .3s
     }
     #mainNav.navbar-shrink {
-        padding-top: 0;
-        padding-bottom: 0;
-        background-color: #212529
+        display: none;
     }
 
     #mainNav.navbar-shrink .navbar-brand {
-        font-size: 1.25em;
-        padding: 12px 0
+       display: none;
     }
-
     #mainNav .navbar-nav .nav-item {
         font: 500 15px/25px Quicksand;
     }
@@ -225,17 +218,15 @@ a:hover{
         -ms-flex-preferred-size: auto;
         flex-basis: auto;
     }
-    .navbar-expand-lg {
+    #mainNav.navbar-expand-lg {
         -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
         -ms-flex-pack: start;
         justify-content: flex-start;
         padding: 40px 4px 0px 24px;
     }
-    #mainNav.navbar-shrink {
-        padding-top: 0;
-        padding-bottom: 0;
-        background-color: #212529
+    .navbar-shrink {
+        display: none;
     }
 
     .navbar-expand-lg .navbar-nav {
@@ -276,9 +267,7 @@ a:hover{
         padding: 35px 18px 0px 18px;
     }
     #mainNav.navbar-shrink {
-        padding-top: 0;
-        padding-bottom: 0;
-        background-color: #212529
+        display: none;
     }
 }
 
@@ -536,7 +525,7 @@ a:hover{
         background-repeat: no-repeat;
 
     }
-    .service-left {
+    .service-left{
         padding: 220px 30px 14px 165px;
     }
     .service-left h2{
@@ -547,6 +536,10 @@ a:hover{
         background: #0a7fcc;
         color: #ffffff;
     }
+    #serviceLeft1,#serviceLeft2,#serviceLeft3,#serviceLeft4{
+        display:none;
+    }
+
 
 }
 @media (min-width: 768px) and (max-width: 1199px) {

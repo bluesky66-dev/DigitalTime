@@ -990,7 +990,7 @@ img::-moz-selection {
 
 
 <!-- footer -->
-#contact {
+#footer {
     padding: 105px 165px 56px 165px;
     background: #F9FBFC;
 }
@@ -1028,14 +1028,14 @@ hr{
     opacity: 0.8;
 }
 @media(min-width: 1200px){
-    #contact {
+    #footer {
         padding: 105px 165px 56px 165px;
         background: #F9FBFC;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-    #contact{
+    #footer{
         background: #F9FBFC;
         padding: 97px 0px 65px 52px;
     }
@@ -1050,7 +1050,7 @@ hr{
 }
 
 @media (min-width: 375px) and (max-width: 767px){
-    #contact{
+    #footer{
         padding: 77px 18px 74px 18px;
         background: #F9FBFC;
     }

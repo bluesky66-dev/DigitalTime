@@ -12,6 +12,7 @@ body{
     letter-spacing: 0;
     color: #ACACAC;
 }
+
 h1{
     font-weight: 700;
     font-size: 72px;
@@ -19,6 +20,7 @@ h1{
     font-family:Lato;
     letter-spacing: -0.72px;
 }
+
 h2{
     font-weight: 700;
     font-size: 56px;
@@ -28,6 +30,7 @@ h2{
     color: #1B445E;
     margin: 0;
 }
+
 h3{
     font-weight: 500;
     font-size: 40px;
@@ -36,6 +39,7 @@ h3{
     letter-spacing: 0;
     color: #3C4361;
 }
+
 h4{
     font-weight: 500;
     font-size: 24px;
@@ -52,45 +56,59 @@ h4{
     font-family:Quicksand;
     letter-spacing: 0;
 }
+
 .primary{
     background: #0A7FCC 0% 0% no-repeat padding-box;
 }
+
 .secondary{
     background: #F6AA66 0% 0% no-repeat padding-box;
 }
+
 .blue{
     background: #30ADFF 0% 0% no-repeat padding-box;
 }
+
 .danger{
     background: #FF6D4A 0% 0% no-repeat padding-box;
 }
+
 .success{
     background: #11BF5A 0% 0% no-repeat padding-box;
 }
+
 .warming{
     background: #FFD012 0% 0% no-repeat padding-box;
 }
+
 a:hover{
     color: transparent;
 }
+
 .color1{
     background: #1C2339 0% 0% no-repeat padding-box;
 }
+
 .color2{
     background: #3C4361 0% 0% no-repeat padding-box;
 }
+
 .color3{
     background: #ACACAC 0% 0% no-repeat padding-box;
 }
+
 .color4{
     background: #D4D3D3 0% 0% no-repeat padding-box;
 }
+
 .color5{
     background: #EDEDED 0% 0% no-repeat padding-box;
 }
+
 .color6{
     background: #F6F6F6 0% 0% no-repeat padding-box;
 }
+
 .button-default{
     width: 170px;
     height: 52px;
@@ -98,19 +116,23 @@ a:hover{
     color: white;
     font: Bold 16px/34px Quicksand;
 }
+
 .button-default:hover{
     color: white;
 }
+
 .button-hover{
     width: 170px;
     height: 52px;
     background: #0C72B5 0% 0% no-repeat padding-box;
 }
+
 .button-disable{
     width: 170px;
     height: 52px;
     background: #BFD3E1 0% 0% no-repeat padding-box;
 }
+
 .button-border{
      width: 170px;
      height: 52px;
@@ -118,9 +140,11 @@ a:hover{
      color: white;
      font: Bold 16px/34px Quicksand;
  }
+
 .button-border:hover{
     color: white;
 }
+
 .row{
     margin: 0;
 }
@@ -131,6 +155,7 @@ a:hover{
         padding: 0;
     }
 }
+
 @media (max-width: 992px) {
     .container {
         max-width: 992px;
@@ -138,9 +163,11 @@ a:hover{
     }
 }
 <!-- Navigation -->
+
 #mainNav.navbar-shrink{
     display: none;
 }
+
 #mainNav {
     font-weight: 500;
     font-size: 15px;
@@ -148,14 +175,7 @@ a:hover{
     font-family:Quicksand;
     letter-spacing: 0;
     color: #FFFFFF;
-    padding: 43px 79px 0px 102px;
-}
-#mainNav .navbar-brand {
-    color: #fed136;
-}
-
-#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fec503
+    padding: 40px 79px 0px 102px;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -167,23 +187,17 @@ a:hover{
     font: 500 15px/25px Quicksand;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fed136;
-    font: 500 15px/25px Quicksand;
-}
-
 #mainNav .navbar-nav .nav-item {
     font: 500 15px/25px Quicksand;
 }
 
-@media(min-width: 1200px){
+@media (min-width: 1200px) {
+
     #mainNav{
         max-width: 1440px;
         padding: 0;
     }
-}
 
-@media (min-width: 1200px) {
     #mainNav.navbar-shrink{
         display: none;
     }
@@ -194,6 +208,10 @@ a:hover{
 
     #mainNav .navbar-nav .nav-item {
         font: 500 15px/25px Quicksand;
+    }
+
+    #mainNav.navbar-expand-lg{
+        padding: 43px 82px 0px 102px!important;
     }
 }
 
@@ -223,7 +241,6 @@ a:hover{
     .navbar-shrink {
         display: none;
     }
-
     .navbar-expand-lg .navbar-nav {
         -ms-flex-direction: row;
         flex-direction: row;
@@ -250,8 +267,8 @@ a:hover{
     .navbar-expand-lg .navbar-toggler {
         display: none;
     }
-
 }
+
 @media (min-width: 375px) and (max-width: 767px){
     #mainNav .navbar-toggler {
         right: 0;
@@ -304,8 +321,9 @@ a:hover{
         background-position: center center;
         background-size: cover;
     }
+
     header.masthead .intro-text {
-        padding: 193px 0px 178px 165px;
+        padding: 93px 0px 178px 165px;
         text-align: left;
         color: white;
     }
@@ -321,10 +339,10 @@ a:hover{
         font: 800 72px/83px Lato;
         text-transform: capitalize;
     }
-
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
+
     .masthead {
         text-align: center;
         background-image: url(../img/header768.jpg);
@@ -333,6 +351,7 @@ a:hover{
         background-position: center center;
         background-size: cover;
     }
+
     header.masthead .intro-text {
         padding: 214px 280px 202px 52px;
 
@@ -353,12 +372,14 @@ a:hover{
         color: #FFFFFF;
         text-transform: capitalize;
     }
+
     .lead{
         text-align: left;
         font: 300 18px/30px Quicksand;
         letter-spacing: 0;
         color: #FFFFFF;
     }
+
     h2{
         text-align: center;
         font: 800 44px/64px Lato;
@@ -368,6 +389,7 @@ a:hover{
 }
 
 @media (min-width: 375px) and (max-width: 767px){
+
     .masthead {
         text-align: center;
         background-image: url(../img/header375.jpg);
@@ -376,9 +398,11 @@ a:hover{
         background-position: center center;
         background-size: cover;
     }
+
     header.masthead .intro-text {
         padding: 200px 18px 120px 18px;
     }
+
     header.masthead .intro-text .intro-heading {
         text-align: center;
         font: 800 46px/49px Lato;
@@ -386,6 +410,7 @@ a:hover{
         color: #FFFFFF;
         text-transform: capitalize;
     }
+
     .lead{
         padding-top: 20px;
         padding-bottom: 50px;
@@ -394,9 +419,11 @@ a:hover{
         letter-spacing: 0;
         color: #FFFFFF;
     }
+
     .header-button{
         display: unset;
     }
+
     .header-button1{
         text-align: center;
         font: Bold 16px/35px Quicksand;
@@ -404,19 +431,19 @@ a:hover{
         color: #F5F9FC;
         width: 100%;
     }
+
     .header-button2{
         width: 100%;
         margin: 12px 0px 0px 0px;
 
     }
+
     .left-background h2{
         text-align: center;
         font: 800 33px/40px Lato;
         letter-spacing: 0;
         color: #1B445E;
     }
-
-
 }
 <!-- Services -->
 
@@ -424,41 +451,52 @@ a:hover{
     max-width: 460px;
     padding-bottom: 15px;
 }
+
 .service-text1{
     font: 400 16px/24px Lato;
     color: #ACACAC;
     max-width: 412px;
 }
+
 .service-text2{
     display: none;
 }
+
 .service-button1{
     margin-top: 69px;
     color: white;
 }
+
 .service-right{
     padding: 144px 165px 190px 0px;
 }
+
 .square-line{
     padding: 15px 0px ;
  }
+
 .square-line:hover{
     color:white;
 }
+
 .square-line1{
     padding: 15px 0px 15px 21px;
 }
+
 .square{
     width: 253px;
     height: 253px;
     padding: 0px;
 }
+
 .square:hover{
     background: #0a7fcc;
 }
+
 .square:hover span{
     color: #ffffff;
 }
+
 .bac-white,.bac-white1{
     border: 1px solid #EDEDED;
     background: white;
@@ -468,9 +506,11 @@ a:hover{
 .service-img{
     margin-top: -50px;
 }
+
 .circle-control{
     padding: 48px 0px 27px 0px;
 }
+
 .circle{
      width: 70px;
      height: 70px;
@@ -484,14 +524,17 @@ a:hover{
      margin-bottom: 27px;
     border: 1px solid #0A7FCC;
  }
+
 .circle1{
     background-color:#F6AA66;
     border: 1px solid #F6AA66;
 }
+
 .circle2{
     background-color: #FD5545;
     border: 1px solid #FD5545;
 }
+
 .circle3{
     background-color: #11BF5A;
     border: 1px solid #11BF5A;
@@ -504,6 +547,7 @@ a:hover{
     color: #1B445E;
     margin: 0 auto;
 }
+
 .square-font1:hover{
     text-align: center;
     font: 500 20px/27px Quicksand;
@@ -511,50 +555,64 @@ a:hover{
     color: #ffffff;
     margin: 0 auto;
 }
+
 .service-button2{
     display: none;
 }
+
 #serviceLeft1,#serviceLeft2,#serviceLeft3,#serviceLeft4{
     display:none;
 }
+
 @media(min-width: 1200px){
+
     #services{
         background-image: url(../img/service.jpg);
         background-repeat: no-repeat;
 
     }
+
     .service-left{
         padding: 220px 30px 14px 165px;
     }
+
     .service-left h2{
         max-width: 460px;
         padding-bottom: 15px;
     }
+
     .square:hover{
         background: #0a7fcc;
         color: #ffffff;
     }
 }
+
 @media (min-width: 768px) and (max-width: 1199px) {
+
     #services{
         background-image: url(../img/service768.jpg);
         background-repeat: no-repeat;
     }
+
     .service-button1{
         display: none;
     }
+
     .service-button2{
         display: block;
         color: #ffffff;
     }
+
     .service-text1{
         text-align: center;
         max-width: 600px;
         margin: 0 auto;
     }
+
     .service-text2{
         display: none;
     }
+
     .service-right{
         padding: 70px 114px 115px 114px;
     }
@@ -563,16 +621,20 @@ a:hover{
         padding: 110px 0px 15px 0px;
         margin: 0;
     }
+
     .square-line1{
         padding: 15px 0px 15px 15px;
     }
+
     .service-button2{
         padding-top: 110px;
         margin: 0 auto;
     }
 
 }
+
 @media (min-width: 375px) and (max-width: 767px){
+
     #services{
         background-image: url(../img/service375.jpg);
         background-repeat: no-repeat;
@@ -582,32 +644,39 @@ a:hover{
     .service-text1{
         display: none;
     }
+
     .service-text2{
         display: block;
         text-align: center;
         max-width: 333px;
         padding-top: 30px;
     }
+
     .service-button1{
         display: none;
     }
+
     .service-button2{
         display: block;
         color: #ffffff;
         padding-top: 75px;
         margin: 0 auto;
     }
+
     .service-right {
         padding: 70px 0px 0px 0px;
     }
+
     .square{
         margin: 0 auto;
     }
+
     .square-line1{
         padding: 15px 0px;
     }
 
 }
+
 <!-- digital future -->
 
 .future-heading{
@@ -617,6 +686,7 @@ a:hover{
     letter-spacing: 1px;
     color: #F6AA66;
 }
+
 .future-body{
     padding-top: 25px;
     padding-bottom: 48px;
@@ -627,6 +697,7 @@ a:hover{
     max-width: 860px;
     margin: 0 auto;
 }
+
 .future-bottom{
     text-align: center;
     font: 400 16px/24px Lato;
@@ -635,23 +706,27 @@ a:hover{
     max-width: 800px;
     margin: 0 auto;
 }
+
 .future-button{
     margin-top: 81px;
     margin-bottom: 100px;
     width: 214px;
     height: 64px;
     color: white;
-    line-height: 45px;
     text-align: center;
     font: Bold 16px/50px Quicksand;
 }
+
 .future-button:hover{
     color: white;
 }
+
 @media (min-width: 1200px) {
+
     #future{
         background:#F9FBFC;
     }
+
     .future-heading{
         padding-top: 100px;
         text-align: center;
@@ -660,33 +735,42 @@ a:hover{
         color: #F6AA66;
     }
 }
+
 @media (min-width: 768px) and (max-width: 1199px) {
+
     #future{
         background:#F9FBFC;
     }
+
     .future-heading{
         padding-top: 100px;
         color: #F6AA66;
     }
+
     .future-body{
         font: 800 56px/71px Lato;
         letter-spacing: -0.56px;
         color: #3C4361;
         max-width: 600px;
     }
+
     .future-bottom{
         max-width:600px;
 
     }
 }
+
 @media (min-width: 375px) and (max-width: 767px){
+
     #future{
         background:#F9FBFC;
         padding: 100px 3px 0px 3px ;
     }
+
     .future-heading{
         color: #F6AA66;
     }
+
     .future-body{
         text-align: center;
         font: 800 44px/51px Lato;
@@ -694,13 +778,9 @@ a:hover{
         color: #3C4361;
         padding-bottom: 34px;
     }
-    }
-
+}
 
 <!-- profile Grid -->
-
-
-
 ::-moz-selection {
     background: #fed136;
     text-shadow: none
@@ -726,32 +806,39 @@ img::-moz-selection {
 #portfolio{
     padding: 168px 150px 141px 150px;
 }
+
 .portfolio1{
     display: flow-root;
     padding: 0px 0px 0px 15px;
 }
+
 .portfolio1-left{
     font: 700 52px/62px Lato;
     letter-spacing: -0.52px;
     color: #1B445E;
 }
+
 .main-nav {
     font: Bold 15px/24px Quicksand;
     color: #23516F;
     text-align: center;
 }
+
 .main-nav ul{
     display: flex;
     justify-content: flex-end;
 }
+
 .main-nav > ul > li {
     position: relative;
     white-space: nowrap;
     }
+
 .main-nav li {
     margin: 0;
     list-style: none;
 }
+
 .main-nav .active.all  a {
     box-sizing: content-box;
     background: #F6AA66;
@@ -761,6 +848,7 @@ img::-moz-selection {
     color: #FFFFFF;
     padding: 8px 29.5px;
 }
+
 .main-nav .active  a {
     box-sizing: content-box;
     background: #F6AA66;
@@ -770,6 +858,7 @@ img::-moz-selection {
     color: #FFFFFF;
     padding: 8px 21px 8px 22px;
 }
+
 .main-nav a {
     font: Bold 15px/24px Quicksand;
     color: #23516F;
@@ -779,12 +868,15 @@ img::-moz-selection {
     /*transition: all 1s;*/
     text-decoration: none;
 }
+
 .ux-ui{
     padding-left: 21px;
 }
+
 .portfolio2{
     padding-top: 59px;
 }
+
 .portfolio-content1{
     text-align: center;
     font: Bold 26px/38px Quicksand;
@@ -792,6 +884,7 @@ img::-moz-selection {
     color: #FFFFFF;
     text-transform: uppercase;
 }
+
 .portfolio-content2{
     text-align: center;
     font: 400 18px/26px Quicksand;
@@ -801,17 +894,21 @@ img::-moz-selection {
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
+
     #portfolio{
         padding: 115px 9px 76px 9px;
     }
+
     .portfolio1-left{
         width: 100%;
     }
+
     .main-nav ul{
         display: flex;
         justify-content: unset;
         padding: 62px 30px 0px 30px;
     }
+
     .portfolio2{
         padding-top: 80px;
     }
@@ -819,34 +916,43 @@ img::-moz-selection {
 }
 
 @media (min-width: 375px) and (max-width: 767px){
+
     #portfolio{
         padding: 85px 0px 85px 0px;
     }
+
     .portfolio1{
         padding: 0;
     }
+
     .portfolio2{
         padding-top: 12px;
     }
+
     #portfolio .portfolio-item{
         margin-left: 13px;
         margin-right: 12px;
     }
+
     .portfolio1-left{
         width: 100%;
         text-align: center;
     }
+
     .portfolio1-left h2{
         font: 800 30px/62px Lato;
         letter-spacing: -0.3px;
         color: #1B445E;
     }
+
     .main-nav ul{
         display: unset;
     }
+
     .main-nav .active a{
         padding: 8px 162px;
     }
+
     .main-nav a{
         padding: 0;
     }
@@ -855,14 +961,12 @@ img::-moz-selection {
         padding-top: 25px;
        margin-bottom: 35px;
     }
+
     .main-nav > ul > li {
         margin-bottom: 42px;
     }
-
-
-
-
 }
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px
@@ -932,9 +1036,8 @@ img::-moz-selection {
     z-index: 2
 }
 
-
-
 @media (min-width: 767px) {
+
     #portfolio .portfolio-item {
         margin: 0 0 30px
     }
@@ -1012,41 +1115,50 @@ img::-moz-selection {
 
 
 <!-- footer -->
+
 #footer {
     padding: 105px 165px 56px 165px;
     background: #F9FBFC;
 }
+
 .footer-left1{
     font: Bold 24px/32px Quicksand;
     letter-spacing: 0;
     color: #3C4361;
     max-width: 445px;
 }
+
 .footer-left2{
     padding-top: 35px;
     font: 500 16px/25px Quicksand;
     letter-spacing: 0;
     color: #F6AA66;
 }
+
 .footer-right1{
     font: 600 17px/25px Lato;
     letter-spacing: 0;
     color: #1B445E;
 }
+
 .footer-right2{
     padding-top: 15px;
 }
+
 .footer-right2 a{
     font: 500 16px/25px Lato;
     letter-spacing: 0;
     color: #1B445E80;
 }
+
 a:hover{
     text-decoration: none;
 }
+
 hr{
     margin: 85px 0px 39px 0px;
 }
+
 .footer-bottom{
     text-align: center;
     font: 500 16px/25px Lato;
@@ -1054,7 +1166,9 @@ hr{
     color: #1B445ECC;
     opacity: 0.8;
 }
+
 @media(min-width: 1200px){
+
     #footer {
         padding: 105px 165px 56px 165px;
         background: #F9FBFC;
@@ -1062,48 +1176,59 @@ hr{
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
+
     #footer{
         background: #F9FBFC;
         padding: 97px 0px 65px 52px;
     }
+
     .footer-left1{
         font: Bold 20px/29px Quicksand;
         letter-spacing: 0;
         color: #3C4361;
     }
+
     hr{
         margin: 60px 0px 20px 0px;
     }
 }
 
 @media (min-width: 375px) and (max-width: 767px){
+
     #footer{
         padding: 77px 18px 74px 18px;
         background: #F9FBFC;
     }
+
     .footer-left1{
         font: Bold 20px/29px Quicksand;
         letter-spacing: 0;
         color: #3C4361;
     }
+
     .footer-bottom{
         font: 400 14px/25px Lato;
         letter-spacing: 0;
         color: #1B445ECC;
     }
+
     .footer-left2{
         padding-top: 20px;
     }
+
     .footer-right1{
         padding-top: 40px;
     }
+
     .footer-right2{
         padding-top: 18px;
     }
+
     hr{
         margin: 40px 0px 18px 0px;
     }
 }
+
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 .fade-in {
     opacity:0;  /* make things invisible upon start */

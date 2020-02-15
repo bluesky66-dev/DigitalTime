@@ -138,7 +138,9 @@ a:hover{
     }
 }
 <!-- Navigation -->
-
+#mainNav.navbar-shrink{
+    display: none;
+}
 #mainNav {
     font-weight: 500;
     font-size: 15px;
@@ -173,9 +175,7 @@ a:hover{
 #mainNav .navbar-nav .nav-item {
     font: 500 15px/25px Quicksand;
 }
-#mainNav.navbar-shrink{
-    display: none;
-}
+
 @media(min-width: 1200px){
     #mainNav{
         max-width: 1440px;
@@ -184,28 +184,23 @@ a:hover{
 }
 
 @media (min-width: 1200px) {
-    #mainNav {
-        padding: 43px 79px 0px 102px;
-        transition: padding-top .3s, padding-bottom .3s;
-        border: none;
-        background-color: transparent
-    }
-    #mainNav .navbar-brand {
-        transition: all .3s
-    }
-    #mainNav.navbar-shrink {
+    #mainNav.navbar-shrink{
         display: none;
     }
 
-    #mainNav.navbar-shrink .navbar-brand {
-       display: none;
+    #mainNav .navbar-brand {
+        transition: all .3s
     }
+
     #mainNav .navbar-nav .nav-item {
         font: 500 15px/25px Quicksand;
     }
 }
 
 @media(min-width:768px){
+    #mainNav.navbar-shrink{
+        display: none;
+    }
     #mainNav .navbar-toggler {
         display: none;
     }
@@ -519,6 +514,9 @@ a:hover{
 .service-button2{
     display: none;
 }
+#serviceLeft1,#serviceLeft2,#serviceLeft3,#serviceLeft4{
+    display:none;
+}
 @media(min-width: 1200px){
     #services{
         background-image: url(../img/service.jpg);
@@ -536,11 +534,6 @@ a:hover{
         background: #0a7fcc;
         color: #ffffff;
     }
-    #serviceLeft1,#serviceLeft2,#serviceLeft3,#serviceLeft4{
-        display:none;
-    }
-
-
 }
 @media (min-width: 768px) and (max-width: 1199px) {
     #services{
@@ -1042,9 +1035,14 @@ img::-moz-selection {
 }
 .footer-right2{
     padding-top: 15px;
+}
+.footer-right2 a{
     font: 500 16px/25px Lato;
     letter-spacing: 0;
     color: #1B445E80;
+}
+a:hover{
+    text-decoration: none;
 }
 hr{
     margin: 85px 0px 39px 0px;
